@@ -1,8 +1,10 @@
 ---
-- name: Install KVM
+- name: Install KVM tools
   apt:
     pkg:
-    - kvm
+    - libvirt0
+    - qemu-system
+    - virt-manager
   become: true
 
 
