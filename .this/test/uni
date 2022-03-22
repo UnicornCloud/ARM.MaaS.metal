@@ -4,4 +4,4 @@
 
   roles:
   - role: KVM
-  - role: transmission
+  - role: torrent
