@@ -1,0 +1,8 @@
+[pi]
+10.1.1.162
+
+[pi:vars]
+ansible_python_interpreter=/usr/bin/python3
+ansible_user=pi
+ansible_password=u
+ansible_become_password=u

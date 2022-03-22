@@ -1,0 +1,10 @@
+---
+- name: Install KVM
+  apt:
+    pkg:
+    - kvm
+  become: true
+
+
+#https://linuxhint.com/kvm_virtualization_raspberry_pi4/
+#https://linuxhint.com/enable_kvm_kernel_module_on_raspberry_pi_os/
